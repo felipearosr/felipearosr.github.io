@@ -1,0 +1,1 @@
+self.__RSC_CSS_MANIFEST={"__entry_css__":{"/home/felipearos/felipearosr.github.io/app/page":["/home/felipearos/felipearosr.github.io/styles/globals.css"]},"/home/felipearos/felipearosr.github.io/app/layout.tsx":["/home/felipearos/felipearosr.github.io/styles/globals.css"]}
