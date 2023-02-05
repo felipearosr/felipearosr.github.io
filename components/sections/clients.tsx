@@ -15,7 +15,7 @@ export const Clients = () => (
   <>
   <div className="text-center">
     <h2 className="mb-4 text-4xl md:mb-7 md:text-7xl">
-    Separe la paja del trigo
+    Obtenga lo relevante
         </h2>
     
     <div className="flex">

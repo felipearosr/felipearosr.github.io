@@ -6,6 +6,7 @@ import { Button } from "./button";
 import { Container } from "./container";
 import { HamburgerIcon } from "./icons/hamburger";
 import { Logo } from "./icons/logo";
+import { LogoData2O } from "./icons/logodata2o";
 import classNames from "classnames";
 
 export const Header = () => {
@@ -32,7 +33,7 @@ export const Header = () => {
     <header className="fixed top-0 left-0 z-10 w-full border-b border-transparent-white backdrop-blur-[12px]">
       <Container className="flex h-navigation-height">
         <Link className="flex items-center text-md" href="/">
-          <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> Data₂O
+          <LogoData2O className="mr-4 h-[1.8rem] w-[1.8rem]" /> Data₂O
         </Link>
       </Container>
     </header>
