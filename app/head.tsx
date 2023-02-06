@@ -1,10 +1,10 @@
 export default function Head() {
   return (
     <>
-      <title>Rebuilding Linear.app</title>
+      <title>Data₂O</title>
       <meta
         name="description"
-        content="Rebuilding Linear.app's website with Next.js, Tailwind and Framer Motion."
+        content="Data₂O"
       />
       <meta name="robots" content="noindex" />
     </>
