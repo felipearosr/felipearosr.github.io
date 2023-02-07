@@ -5,6 +5,7 @@ import { Clients } from "../components/sections/clients";
 import { HomepageHero } from "../components/sections/homepage-hero";
 import { UnlikeAnyTool } from "../components/sections/unlike-any-tool";
 import { Contact } from "../components/sections/contact";
+import { Footer } from "../components/footer";
 
 export default function Homepage() {
   return (
@@ -28,7 +29,8 @@ export default function Homepage() {
       </div>
       <UnlikeAnyTool />
       <Contact />
-      <div className="pb-[8rem]"></div>
+      <div className="pb-[3rem]"></div>
+      <Footer />
     </>
   );
 }
