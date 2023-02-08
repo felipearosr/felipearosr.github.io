@@ -14,19 +14,18 @@ import { VercelLogo } from "../logos/vercel";
 export const Clients = () => (
   <>
   <div className="text-center">
-    <h2 className="mb-4 text-4xl md:mb-7 md:text-7xl">
+    <h2 className="mb-4 text-4xl md:mb-[7rem] md:text-7xl">
     Obtenga lo relevante
         </h2>
-    
-    <div className="flex">
-    <p className="mb-12 text-center text-lg text-primary-text md:text-xl">
-      <br className="hidden md:block m-[2rem]" /> Ahorre tiempo y acelere la búsqueda de información
+    <div className="grid md:flex md:pb-[1rem]">
+    <p className="text-center text-lg text-primary-text md:text-xl">
+      <br className=" md:block" /> Ahorre tiempo y acelere la búsqueda de información
     </p>
-    <p className="mb-12 text-center text-lg text-primary-text md:text-xl">
-      <br className="hidden md:block m-[2rem]" /> Nunca pierda información crítica
+    <p className="text-center text-lg text-primary-text md:text-xl">
+      <br className=" md:block" /> Nunca pierda información crítica
     </p>
-    <p className="mb-12 text-center text-lg text-primary-text md:text-xl">
-      <br className="hidden md:block m-[2rem]" /> Obtenga en tiempo real, respuestas relevantes
+    <p className="text-center text-lg text-primary-text md:text-xl">
+      <br className=" md:block" /> Obtenga en tiempo real, respuestas relevantes
     </p>
     </div>
   </div>

@@ -1,8 +1,4 @@
-import { Button, Highlight } from "../button";
 import { Container } from "../container";
-import { LogoLightIllustration } from "../illustrations/logo-light";
-import { ZapIllustration } from "../illustrations/zap";
-import { KeyboardShortcuts } from "../keyboard-shortcuts";
 
 export const UnlikeAnyTool = () => (
   <div className="text-white">
@@ -17,9 +13,9 @@ export const UnlikeAnyTool = () => (
         </p>
       </div>
     </Container>
-    <div className="h-[14rem] overflow-hidden md:h-auto md:overflow-auto">
-      <div className="flex snap-x snap-mandatory gap-6 overflow-x-auto px-8 pb-12 md:flex-wrap md:overflow-hidden">
-        <div className="relative flex min-h-[14rem] w-full shrink-0 snap-center flex-col items-center justify-end overflow-hidden rounded-[4.8rem] border border-transparent-white bg-glass-gradient p-8 text-center md:max-w-[calc(50%-12px)] md:basis-[calc(66.66%-12px)] md:p-14">
+    <div className="h-[48rem] md:h-[24rem] overflow-hidden md:h-auto md:overflow-auto">
+      <div className="grid md:flex snap-x snap-mandatory gap-6 overflow-x-auto px-8 pb-12 md:flex-wrap md:overflow-hidden">
+        <div className="relative flex min-h-[14rem] w-full shrink-0 snap-center flex-col items-center justify-end overflow-hidden rounded-[4.8rem] border border-transparent-white bg-glass-gradient p-8 text-center md:max-w-[calc(50%-12px)] md:basis-[calc(50%-12px)] md:p-14">
           <p className="mb-4 text-3xl">eCommerce</p>
           <p className="text-md text-primary-text">
           Mejore las búsquedas de productos, recomendaciones y aumente la conversión
