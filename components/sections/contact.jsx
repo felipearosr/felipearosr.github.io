@@ -13,6 +13,7 @@ export const Contact = () => {
 
     emailjs.sendForm('service_hxahj05', 'template_0iml0oq', form.current, 'vl2f_of4I5rPfY7AE')
       .then((result) => {
+          form.current.reset();
           console.log(result.text);
           console.log("message sent");
           setShowPopup(true);
