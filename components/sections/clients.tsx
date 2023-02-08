@@ -15,7 +15,7 @@ export const Clients = () => (
   <>
   <div className="text-center">
     <h2 className="mb-4 text-4xl md:mb-[7rem] md:text-7xl">
-    Obtenga lo relevante
+    Consiga lo relevante
         </h2>
     <div className="grid md:flex md:pb-[1rem]">
     <p className="text-center text-lg text-primary-text md:text-xl">
